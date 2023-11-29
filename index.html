@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!---->
+<!--This is just to tell the users that the html file is in english-->
+<html lang = "en">
+    
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content="width=device-width, initial-scale=1,0"/>
+        <!--The title will be part of the tab-->
+        <title>Home</title>
+        <!--This will allow us to call to the stylesheet-->
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/app.css">
+        
+
+
+    </head>
+    
+    <body>
+        <script src="assets/js/boostrap.bundle.min.js"></script>
+        <script src="assets/js/app.js">  </script>
+
+        <section>
+          <!-- Fixed at the end of the nav class will keep the nav bar fixed to the top of the screen-->
+        <nav class="navbar navbar-expand-lg bg-dark-subtle ">
+            <div class="container-fluid">
+              <a class="navbar-brand img-fluid" href="index.html"><img src="./assets/images/locktoo.ico" alt="Blue padlock logo">TheNewOil</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- ms-auto allows the class navbar to push all items to right side -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="guides.html">Guides</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+
+          
+        </section>
+        
+       
+        <!-- This is the carousel ##########################################################################################-->
+        
+      <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/images/cyberSec.png" class="d-block w-100" alt="A lot of text saying Cyber Security">
+              <div class="carousel-caption">
+                <h1>Cyber Security</h1>
+                <p>Protect yourself on the Internet</p>
+                <p><a href="guides.html" class = "btn btn-warning mt-3">Guides</a></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/openSource.jpg" class="d-block w-100" alt="Image of tiles spelling open Source">
+              <div class="carousel-caption ">
+                <h1>Open Source Software</h1>
+                <p>FOSS is a safety standard on the Internet</p>
+                <p><a href="guides.html" class = "btn btn-warning mt-3">Guides</a></p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/protectData.jpg" class="d-block w-100" alt="Large text about data protection">
+              <div class="carousel-caption ">
+                <h1>Protect your Data</h1>
+                <p>Compromised Data is the Biggest Cyber Vulerability</p>
+                <p><a href="guides.html" class = "btn btn-warning mt-3">Guides</a></p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>  
+
+
+        </section>
+        
+        <!-- About-->
+        <section id = "about" class = "about section-padding">
+          <div class="container">
+            <div class = "row">
+              <div class = "col-lg-4 col-md-12 col-12">
+                <div class = "about.img">
+                  <img src="./assets/images/about.jpg" alt="image of coffe on a desk" class = "img-fluid">
+
+                </div>
+              </div>
+              <div class = "col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+
+                <div class = "about-text"></div>
+                <h2>Guides that will protect you online<br></h2>
+                <p> We Provide the tools that will lead to a safer experience online.
+                    In this digital world many disregard safety practices, this guides are easy to follow
+                    and full of valuable information.<br>
+                    <a href="guides.html" class = "btn btn-warning">Guides</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Footer  -->
+        <footer class="footer pt-3 bg-light text-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>About Us</h3>
+                <p>We are an organization with the goal to help out people learn and protect themselves on the Internet.</p>
+              </div>
+              <div class="col-md-4">
+                <h3>Related Links</h3>
+                <ul class="list-unstyled">
+                  <li><a href="https://www.privacytools.io/" class="text-dark">Privacytools.io</a></li>
+                  <li><a href="#" class="text-dark">Github</a></li>
+                  <li><a href="#" class="text-dark">Instagram</a></li>
+                  <li><a href="#" class="text-dark">Youtube</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-home mr-3"></i> Cal State University of Los Angeles</p>
+                <p><i class="fas fa-envelope mr-3"></i> student@calstatela.edu</p>
+                <p><i class="fas fa-phone mr-3"></i> (323) 343-3000</p>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col text-center">
+                <p class="mb-0">&copy; 2023 TheNewOil</p>
+                <p class="mb-0">All rights reserved</p>
+              </div>
+            </div>
+          </div>
+        </footer> 
+
+        
+            
+    </body>
+
+<footer>
+
+
+</footer>
+
+</html>
